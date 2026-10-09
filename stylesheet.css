@@ -132,8 +132,15 @@ span.highlight {
 .updates { padding: 0 20px 8px; }
 .updates h2 { font-size: 22px; font-weight: normal; margin: 12px 0; }
 .updates ul { padding-left: 20px; line-height: 1.6; }
-.recent-paper { padding: 20px; vertical-align: middle; }
-.recent-paper p { margin-bottom: 0; }
+/* Publication teasers on the left, paper details on the right. */
+.publications { table-layout: fixed; }
+.publications td:first-child { width: 28% !important; padding: 20px 16px 20px 20px !important; vertical-align: middle; }
+.publications td:last-child { width: 72% !important; padding: 20px 20px 20px 12px !important; vertical-align: middle; }
+.publications img, .publications video { width: 100% !important; max-width: 100%; height: auto !important; object-fit: contain; border-radius: 4px; display: block; }
+.publications .one { width: 100%; height: auto; position: static; }
+.publications p { margin-bottom: 0; }
 @media (max-width: 600px) {
-  .updates, .recent-paper { padding-left: 12px; padding-right: 12px; }
+ .publications td:first-child { width: 32% !important; padding: 16px 8px !important; }
+ .publications td:last-child { width: 68% !important; padding: 16px 8px !important; }
+ .updates { padding-left: 8px; padding-right: 8px; }
 }

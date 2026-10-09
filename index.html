@@ -2,10 +2,10 @@
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
   <title>Huang (Raven) Huang</title>
-  
+
   <meta name="author" content="Huang (Raven) Huang">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="icon" type="image/png" href="images/seal_icon.png">
 </head>
@@ -24,7 +24,7 @@
               <p>My research focuses on general robot learning, particularly learning from human videos, real2sim2real transfer, and dexterous manipulation. I develop methods for scalable robot data generation, cross-embodiment world models, in-context imitation learning, and multimodal perception with touch.</p>
               <p style="text-align:center">
                 <a href="mailto:ravenh@stanford.edu">Email</a> &nbsp/&nbsp
-                <a href="https://scholar.google.com/citations?hl=en&user=N_KDBGcAAAAJ">Google Scholar</a> 
+                <a href="https://scholar.google.com/citations?hl=en&user=N_KDBGcAAAAJ">Google Scholar</a>
                 &nbsp;/&nbsp; <a href="Huang_Huang_CV.pdf">CV</a>
               </p>
             </td>
@@ -38,7 +38,6 @@
           <ul>
             <li><strong>2026:</strong> <a href="https://www.microsoft.com/en-us/research/academic-program/microsoft-research-fellowship/fellows/">Microsoft Research Fellowship</a>.</li>
             <li><strong>2026:</strong> Associate Editor, IEEE International Conference on Robotics and Automation (ICRA).</li>
-            <li><strong>2025:</strong> Co-author of Robo-DM, recipient of the <a href="https://www.ieee-ras.org/awards-recognition/conference-awards/ieee-icra-best-paper-award-on-robot-learning/">ICRA Best Paper Award on Robot Learning</a>.</li>
           </ul>
         </section>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -48,11 +47,39 @@
             </td>
           </tr>
         </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody> 
+        <table class="publications" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
           <tr>
-            <td colspan="2" class="recent-paper">
+            <td class="paper-media"><video autoplay muted loop playsinline preload="metadata" poster="images/roborender-teaser.png" aria-label="RoboRender robot manipulation demo"><source src="https://robo-render.github.io/static/videos/real/mug.mp4" type="video/mp4"></video></td>
+            <td class="paper-details">
+              <papertitle>RoboRender: Robot-Oriented Video Generation for Visual Sim-to-Real Transfer</papertitle><br>
+              <b>Huang Huang</b>*, Wensi Ai*, Ziyu Chen*, Youhui Wang*, Zijian Du, Yang Liu, Jiaolong Yang, Li Fei-Fei, Jiajun Wu <small>*Equal contribution</small><br>
+              <em>arXiv</em> 2026 &middot; <a href="https://robo-render.github.io/">Website</a> &middot; <a href="https://arxiv.org/abs/2610.09254">Paper</a>
+              <p>We convert simulated robot trajectories into photorealistic RGB videos while preserving geometry, robot motion, and action labels, enabling visual sim-to-real transfer for robot policies.</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="paper-media"><video autoplay muted loop playsinline preload="metadata" poster="images/dexagent-teaser.jpg" aria-label="DexAgent dexterous manipulation demo"><source src="https://dexagent123.github.io/static/videos/rollout/bottle.mp4" type="video/mp4"></video></td>
+            <td class="paper-details">
+              <papertitle>DexAgent: An Agentic Human2Sim2Robot Framework for Dexterous Manipulation with Self-Evolving Tool Library</papertitle><br>
+              Youhui Wang, Yunzhu Li, Li Fei-Fei, Jiajun Wu, <b>Huang Huang</b><br>
+              <em>arXiv</em> 2026 &middot; <a href="https://dexagent123.github.io/">Website</a> &middot; <a href="https://arxiv.org/abs/2609.35318">Paper</a>
+              <p>DexAgent turns a human demonstration video into dexterous robot training data through simulation reconstruction, trajectory optimization, and verification, using a self-evolving library of reusable tools.</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="paper-media"><img src="images/tract-teaser.png" alt="TrAct: Bridging Robot Control and Visual Prediction with Visual Tracks overview"></td>
+            <td class="paper-details">
+              <papertitle>TrAct: Bridging Robot Control and Visual Prediction with Visual Tracks</papertitle><br>
+              Zhi Cao, Howard Ji, Kevin Zhang, Kuangzhi Ge, Li Fei-Fei, Jiajun Wu, <b>Huang Huang</b><br>
+              <em>arXiv</em> 2026 &middot; <a href="https://arxiv.org/abs/2608.24101">Paper</a>
+              <p>TrAct uses visual tracks as a shared interface between robot control and video prediction. It proposes action-track pairs, predicts their visual outcomes, and selects actions with a vision-language reward model.</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="paper-media"><img src="images/world-model-teaser.png" alt="Publication overview"></td>
+            <td class="paper-details">
               <papertitle>Cross-Embodiment Robot Foundation World Models with Latent Actions</papertitle><br>
               <b>Huang Huang</b>, Sriram Yenamandra, Arjun Majumdar, Elie Aljalbout, Tushar Nagarajan, Tsung-Yen Yang, Akshara Rai, Michael Rabbat, Li Fei-Fei, Jiajun Wu, Tingfan Wu, Franziska Meier<br>
               <em>ICML</em> 2026 &middot; <a href="https://proceedings.mlr.press/v306/huang26bv.html">Paper</a>
@@ -60,7 +87,8 @@
             </td>
           </tr>
           <tr>
-            <td colspan="2" class="recent-paper">
+            <td class="paper-media"><video autoplay muted loop playsinline preload="metadata" poster="images/real2render2real-teaser.png" aria-label="Real2Render2Real robot manipulation demo"><source src="https://real2render2real.com/data/real_vids/faucet_real_5x_side.mp4" type="video/mp4"></video></td>
+            <td class="paper-details">
               <papertitle>Real2Render2Real: Scaling Robot Data Without Dynamics Simulation or Robot Hardware</papertitle><br>
               Justin Yu, Letian Fu, <b>Huang Huang</b>, Karim El-Refai, Rares Andrei Ambrus, Richard Cheng, Muhammad Zubair Irshad, Ken Goldberg<br>
               <em>CoRL</em> 2025 &middot; <b>Oral Presentation</b> &middot; <a href="https://real2render2real.com">Website</a> &middot; <a href="https://proceedings.mlr.press/v305/yu25a.html">Paper</a>
@@ -68,7 +96,8 @@
             </td>
           </tr>
           <tr>
-            <td colspan="2" class="recent-paper">
+            <td class="paper-media"><video autoplay muted loop playsinline preload="metadata" poster="images/otter-teaser.png" aria-label="OTTER robot manipulation demo"><source src="https://ottervla.github.io/files/video_carousel_1-Compress%201080p.mp4" type="video/mp4"></video></td>
+            <td class="paper-details">
               <papertitle>OTTER: A Vision-Language-Action Model with Text-Aware Visual Feature Extraction</papertitle><br>
               <b>Huang Huang</b>*, Fangchen Liu*, Letian Fu*, Tingfan Wu, Mustafa Mukadam, Jitendra Malik, Ken Goldberg, Pieter Abbeel <small>*Equal contribution</small><br>
               <em>ICML</em> 2025 &middot; <a href="https://ottervla.github.io/">Website</a> &middot; <a href="https://proceedings.mlr.press/v267/huang25u.html">Paper</a>
@@ -76,7 +105,8 @@
             </td>
           </tr>
           <tr>
-            <td colspan="2" class="recent-paper">
+            <td class="paper-media"><img src="images/diffusionseeder-teaser.png" alt="Publication overview"></td>
+            <td class="paper-details">
               <papertitle>DiffusionSeeder: Seeding Motion Optimization with Diffusion for Rapid Motion Planning</papertitle><br>
               <b>Huang Huang</b>, Balakumar Sundaralingam, Arsalan Mousavian, Adithyavairavan Murali, Ken Goldberg, Dieter Fox<br>
               <em>CoRL</em> 2024 &middot; <a href="https://diffusion-seeder.github.io/">Website</a> &middot; <a href="https://arxiv.org/abs/2410.16727">Paper</a>
@@ -89,7 +119,7 @@
             <td style="padding:20px;width:25%;vertical-align:middle">
               <!-- IMAGES -->
               <div class="one">
-                <video  width=115% height=100% muted autoplay loop id="icrt">
+                <video  width=115% height=100% muted autoplay loop playsinline preload="metadata" id="icrt">
                   <source src="images/teaser_icrt.mp4" type="video/mp4">
                   Your browser does not support the video tag.
                 </video>
@@ -111,7 +141,7 @@
               We explore how to enhance next-token prediction models to perform in-context imitation learning on a real robot. We propose In-Context Robot Transformer (ICRT), a causal transformer that generalizes to unseen tasks conditioned on prompts of sensorimotor trajectories of the new task composing of image observations, actions and states tuples, collected through human teleoperation.
             </td>
           </tr>
-          
+
 
           <!-- TVL-->
           <tr>
@@ -144,7 +174,7 @@
             <td style="padding:20px;width:25%;vertical-align:middle">
               <!-- IMAGES -->
               <div class="one">
-                <video  width=115% height=100% muted autoplay loop id="dog">
+                <video  width=115% height=100% muted autoplay loop playsinline preload="metadata" id="dog">
                   <source src="images/dog.mp4" type="video/mp4">
                   Your browser does not support the video tag.
                 </video>
@@ -167,33 +197,20 @@
               For locomotion, is an arm on a legged robot a liability or an asset for locomotion? Biological systems evolved additional limbs beyond legs that facilitates postural control. This work shows how a manipulator can be an asset for legged locomotion at high speeds or under external perturbations, where the arm serves beyond manipulation.
             </td>
           </tr>
-          
-          
+
+
 
 
            <!-- TACVIS -->
-           <tr onmouseout="tacvis_stop()" onmouseover="tacvis_start()">
+           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <!-- IMAGES -->
               <div class="one">
-                <div class="two" id='tacvis_under'>
-                  <img src="images/tacvis_under.png" width='180'/>
-                </div>
+
                 <img src="images/tacvis_splash.png" width='180' id='tacvis_splash'/>
               </div>
               <!-- SCRIPT FOR HOVERING -->
-              <script type="text/javascript">
-                function tacvis_start() {
-                  document.getElementById('tacvis_splash').style.opacity = "0";
-                  document.getElementById('tacvis_under').style.opacity = "1";
-                }
 
-                function tacvis_stop() {
-                  document.getElementById('tacvis_splash').style.opacity = "1";
-                  document.getElementById('tacvis_under').style.opacity = "0";
-                }
-                tacvis_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <!-- TITLE -->
@@ -208,38 +225,25 @@
               <em>RSS</em> 2023, <a href="https://arxiv.org/pdf/2209.13042">Paper</a>
               <p></p>
               <!-- SUMMARY -->
-              We learn a self-supervised representation cross tactile and vistion using contrastive loss. We collect vision-tacitile pairs in a self-supervised way in real. The learned representation is utilized in the downstream active perception tasks without fine-tuning.
+              We learn self-supervised representations from vision and touch using contrastive learning. The representations support active perception of deformable surfaces without task-specific fine-tuning.
             </td>
           </tr>
 
 
 
           <!-- EVO-NERF -->
-          <tr onmouseout="evonerf_stop()" onmouseover="evonerf_start()">
+          <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <!-- IMAGES -->
               <div class="one">
-                <div class="two" id='evonerf_under'>
-                  <img src="images/evonerf_early_stop.png" width='180'/>
-                </div>
-                <video  width=115% height=100% muted autoplay loop id="evonerf_splash">
+
+                <video  width=115% height=100% muted autoplay loop playsinline preload="metadata" id="evonerf_splash">
                   <source src="images/evonerf_splash.mp4" type="video/mp4">
                   Your browser does not support the video tag.
                 </video>
               </div>
               <!-- SCRIPT FOR HOVERING -->
-              <script type="text/javascript">
-                function evonerf_start() {
-                  document.getElementById('evonerf_splash').style.opacity = "0";
-                  document.getElementById('evonerf_under').style.opacity = "1";
-                }
 
-                function evonerf_stop() {
-                  document.getElementById('evonerf_splash').style.opacity = "1";
-                  document.getElementById('evonerf_under').style.opacity = "0";
-                }
-                evonerf_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <!-- TITLE -->
@@ -255,39 +259,26 @@
               <p></p>
               <!-- SUMMARY -->
               We propose Evo-NeRF with additional geometry regularizations improving performance in rapid capture settings to achieve real-time, updateable scene reconstruction for rapidly grasping table-top transparent objects.
-              We train a NeRF-adapted grasping network learns to ignore floaters.
+              We train a NeRF-adapted grasping network that learns to ignore reconstruction artifacts.
             </td>
           </tr>
 
           <!-- prc -->
-          <tr onmouseout="prc_stop()" onmouseover="prc_start()">
+          <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <!-- IMAGES -->
               <div class="one">
-                <div class="two" id='prc_splash'>
-                  <img src="images/prc_teaser.jpg" width='180'/>
-                </div>
-                <video  width=115% height=100% muted autoplay loop id="prc_vid">
+
+                <video  width=115% height=100% muted autoplay loop playsinline preload="metadata" id="prc_vid">
                   <source src="images/prc_tossvideo.mp4" type="video/mp4">
                   Your browser does not support the video tag.
                 </video>
               </div>
               <!-- SCRIPT FOR HOVERING -->
-              <script type="text/javascript">
-                function prc_start() {
-                  document.getElementById('prc_splash').style.opacity = "0";
-                  document.getElementById('prc_vid').style.opacity = "1";
-                }
 
-                function prc_stop() {
-                  document.getElementById('prc_splash').style.opacity = "1";
-                  document.getElementById('prc_vid').style.opacity = "0";
-                }
-                prc_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <!-- TITLE -->  
+              <!-- TITLE -->
                 <a href="https://sites.google.com/view/dynamic-cable">
                 <papertitle>Real2Sim2Real: Self-Supervised Learning of Physical
                   Single-Step Dynamic Actions for Planar Robot Casting</papertitle>
@@ -301,14 +292,14 @@
               <em>ICRA</em> 2022, <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9811651">paper</a>
               <p></p>
               <!-- SUMMARY -->
-              We collect planar robot casting data in real in a self-supervised way to tune the simulation in Isaac Gym. We then collect more data in the tuned simulator. 
+              We collect planar robot casting data in real in a self-supervised way to tune the simulation in Isaac Gym. We then collect more data in the tuned simulator.
               Combined with upsampled real data, we learn a policy for planar robot casting to reach to a given target, attaining median error distance (as % of cable length) ranging
               from 8% to 14%.
             </td>
           </tr>
-          
+
           <!-- acc -->
-          
+
 
         </tbody></table>
       </td>
