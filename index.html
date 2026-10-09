@@ -20,12 +20,12 @@
               <p style="text-align:center">
                 <name>Huang (Raven) Huang</name>
               </p>
-              <p>I am a Postdoc at Stanford, advised by Prof. Jiajun Wu and Prof. Fei-Fei Li. I obtained my PhD degree in EECS at UC Berkeley, advised by Prof. Ken Goldberg. My research focuses on general robot learning. Recently I have worked on the in-context learning of robotics, the alignment between tactile, vision and language and the whole body control of a quadruped. 
-              </p>
+              <p>I am a postdoctoral researcher at Stanford University, advised by Prof. Jiajun Wu and Prof. Fei-Fei Li. I received my Ph.D. in EECS from UC Berkeley, advised by Prof. Ken Goldberg.</p>
+              <p>My research focuses on general robot learning, particularly learning from human videos, real2sim2real transfer, and dexterous manipulation. I develop methods for scalable robot data generation, cross-embodiment world models, in-context imitation learning, and multimodal perception with touch.</p>
               <p style="text-align:center">
                 <a href="mailto:ravenh@stanford.edu">Email</a> &nbsp/&nbsp
                 <a href="https://scholar.google.com/citations?hl=en&user=N_KDBGcAAAAJ">Google Scholar</a> 
-                <!-- &nbsp/&nbsp -->
+                &nbsp;/&nbsp; <a href="Huang_Huang_CV.pdf">CV</a>
               </p>
             </td>
             <td style="padding:2.5%;width:100%;max-width:100%">
@@ -33,6 +33,14 @@
             </td>
           </tr>
         </tbody></table>
+        <section class="updates" aria-labelledby="updates-heading">
+          <h2 id="updates-heading">Honors and Service</h2>
+          <ul>
+            <li><strong>2026:</strong> <a href="https://www.microsoft.com/en-us/research/academic-program/microsoft-research-fellowship/fellows/">Microsoft Research Fellowship</a>.</li>
+            <li><strong>2026:</strong> Associate Editor, IEEE International Conference on Robotics and Automation (ICRA).</li>
+            <li><strong>2025:</strong> Co-author of Robo-DM, recipient of the <a href="https://www.ieee-ras.org/awards-recognition/conference-awards/ieee-icra-best-paper-award-on-robot-learning/">ICRA Best Paper Award on Robot Learning</a>.</li>
+          </ul>
+        </section>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
@@ -43,8 +51,41 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody> 
 
 
+          <tr>
+            <td colspan="2" class="recent-paper">
+              <papertitle>Cross-Embodiment Robot Foundation World Models with Latent Actions</papertitle><br>
+              <b>Huang Huang</b>, Sriram Yenamandra, Arjun Majumdar, Elie Aljalbout, Tushar Nagarajan, Tsung-Yen Yang, Akshara Rai, Michael Rabbat, Li Fei-Fei, Jiajun Wu, Tingfan Wu, Franziska Meier<br>
+              <em>ICML</em> 2026 &middot; <a href="https://proceedings.mlr.press/v306/huang26bv.html">Paper</a>
+              <p>We learn a shared latent action space for robot world models, enabling transfer across embodiments and improving downstream dexterous manipulation and other robot learning tasks.</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="recent-paper">
+              <papertitle>Real2Render2Real: Scaling Robot Data Without Dynamics Simulation or Robot Hardware</papertitle><br>
+              Justin Yu, Letian Fu, <b>Huang Huang</b>, Karim El-Refai, Rares Andrei Ambrus, Richard Cheng, Muhammad Zubair Irshad, Ken Goldberg<br>
+              <em>CoRL</em> 2025 &middot; <b>Oral Presentation</b> &middot; <a href="https://real2render2real.com">Website</a> &middot; <a href="https://proceedings.mlr.press/v305/yu25a.html">Paper</a>
+              <p>We generate robot training data from smartphone scans and human demonstration videos by reconstructing object geometry and motion, then rendering robot demonstrations.</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="recent-paper">
+              <papertitle>OTTER: A Vision-Language-Action Model with Text-Aware Visual Feature Extraction</papertitle><br>
+              <b>Huang Huang</b>*, Fangchen Liu*, Letian Fu*, Tingfan Wu, Mustafa Mukadam, Jitendra Malik, Ken Goldberg, Pieter Abbeel <small>*Equal contribution</small><br>
+              <em>ICML</em> 2025 &middot; <a href="https://ottervla.github.io/">Website</a> &middot; <a href="https://proceedings.mlr.press/v267/huang25u.html">Paper</a>
+              <p>OTTER extracts task-relevant visual features aligned with language instructions from frozen vision-language encoders, improving generalization to unseen robot manipulation tasks.</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="recent-paper">
+              <papertitle>DiffusionSeeder: Seeding Motion Optimization with Diffusion for Rapid Motion Planning</papertitle><br>
+              <b>Huang Huang</b>, Balakumar Sundaralingam, Arsalan Mousavian, Adithyavairavan Murali, Ken Goldberg, Dieter Fox<br>
+              <em>CoRL</em> 2024 &middot; <a href="https://diffusion-seeder.github.io/">Website</a> &middot; <a href="https://arxiv.org/abs/2410.16727">Paper</a>
+              <p>We use diffusion models to generate diverse trajectory seeds for motion optimization, enabling rapid robot motion planning.</p>
+            </td>
+          </tr>
+
           <!-- ICRT-->
-          <tr onmouseout="icrt_stop()" onmouseover="icrt_start()">
+          <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <!-- IMAGES -->
               <div class="one">
@@ -54,18 +95,7 @@
                 </video>
               </div>
               <!-- SCRIPT FOR HOVERING -->
-              <script type="text/javascript">
-                function icrt_start() {
-                  document.getElementById('icrt_splash').style.opacity = "0";
-                  document.getElementById('icrt_under').style.opacity = "1";
-                }
 
-                function icrt_stop() {
-                  document.getElementById('icrt_splash').style.opacity = "1";
-                  document.getElementById('icrt_under').style.opacity = "0";
-                }
-                icrt_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <!-- TITLE -->
@@ -75,7 +105,7 @@
               Letian Fu*,  <b>Huang Huang</b>*, Gaurav Datta*, Lawrence Yunliang Chen, William Chung-Ho Panitch, Fangchen Liu, Hui Li, Ken Goldberg <small>*Equal contribution</small>
               <br>
               <!-- CONFERENCE -->
-              <em> arXiv preprint arXiv:2408.15980</em> 2024, <a href="https://icrt.dev/">Website</a>
+              <em>ICRA</em> 2025, <a href="https://icrt.dev/">Website</a>
               <p></p>
               <!-- SUMMARY -->
               We explore how to enhance next-token prediction models to perform in-context imitation learning on a real robot. We propose In-Context Robot Transformer (ICRT), a causal transformer that generalizes to unseen tasks conditioned on prompts of sensorimotor trajectories of the new task composing of image observations, actions and states tuples, collected through human teleoperation.
@@ -84,25 +114,14 @@
           
 
           <!-- TVL-->
-          <tr onmouseout="tvl_stop()" onmouseover="tvl_start()">
+          <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <!-- IMAGES -->
               <div class="one">
-                <img src="images/tvl.png" width='180' id='tvl_splash'/>
+                <img src="images/tvl.png" width='180' id='tvl_splash' alt="Touch, vision, and language dataset overview"/>
               </div>
               <!-- SCRIPT FOR HOVERING -->
-              <script type="text/javascript">
-                function tvl_start() {
-                  document.getElementById('tvl_splash').style.opacity = "0";
-                  document.getElementById('tvl_under').style.opacity = "1";
-                }
 
-                function tvl_stop() {
-                  document.getElementById('tvl_splash').style.opacity = "1";
-                  document.getElementById('tvl_under').style.opacity = "0";
-                }
-                tvl_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <!-- TITLE -->
@@ -121,29 +140,18 @@
 
 
           <!-- Dog-->
-          <tr onmouseout="dog_stop()" onmouseover="dog_start()">
+          <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <!-- IMAGES -->
               <div class="one">
-                <video  width=115% height=100% muted autoplay loop id="icrt">
+                <video  width=115% height=100% muted autoplay loop id="dog">
                   <source src="images/dog.mp4" type="video/mp4">
                   Your browser does not support the video tag.
                 </video>
 
               </div>
               <!-- SCRIPT FOR HOVERING -->
-              <script type="text/javascript">
-                function dog_start() {
-                  document.getElementById('dog_splash').style.opacity = "0";
-                  document.getElementById('dog_under').style.opacity = "1";
-                }
 
-                function dog_stop() {
-                  document.getElementById('dog_splash').style.opacity = "1";
-                  document.getElementById('dog_under').style.opacity = "0";
-                }
-                dog_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <!-- TITLE -->
@@ -290,7 +298,7 @@
               Jeffrey Ichnowski, Daniel Seita, Michael Laskey, Ken Goldberg, <small>*Equal contribution</small>
               <br>
               <!-- CONFERENCE -->
-              <em>ICRA</em> 2021, <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9811651">paper</a>
+              <em>ICRA</em> 2022, <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9811651">paper</a>
               <p></p>
               <!-- SUMMARY -->
               We collect planar robot casting data in real in a self-supervised way to tune the simulation in Isaac Gym. We then collect more data in the tuned simulator. 

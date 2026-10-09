@@ -129,3 +129,11 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+.updates { padding: 0 20px 8px; }
+.updates h2 { font-size: 22px; font-weight: normal; margin: 12px 0; }
+.updates ul { padding-left: 20px; line-height: 1.6; }
+.recent-paper { padding: 20px; vertical-align: middle; }
+.recent-paper p { margin-bottom: 0; }
+@media (max-width: 600px) {
+  .updates, .recent-paper { padding-left: 12px; padding-right: 12px; }
+}
